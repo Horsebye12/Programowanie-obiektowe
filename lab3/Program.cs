@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace lab3{
@@ -195,12 +195,77 @@ namespace lab3{
         //        break; 
         // }
 
-        //ZADANIE 9
+        // //ZADANIE 9
 
-        // string treeOne(param){
-        //     for(int x = param, x<param, x++){
-                
+        // static void treeOne(int a){
+        //     for (int x = 1; x <= a; x++){
+        //         for(int y = 1; y <= x; y++){
+        //             Console.Write("*");
+        //         }
+        //         Console.Write("\n");
         //     }
+        // }
+
+        // static void treeTwo(int a){
+        //     for (int x = 1; x<=a; x++){
+        //         for (int y = (a - x); y >= 0; y--){
+        //             Console.Write("*");
+        //         }
+        //         Console.Write("\n");
+        //     }
+        // }
+
+        // static void treeThree(int a){
+        //     for (int x = 1; x <= a; x++){
+        //         for (int y = (a - x); y > 0; y--){
+        //             Console.Write(" ");
+        //         }
+        //         for(int y = 1; y <= x; y++){
+        //             Console.Write("*");
+        //         }
+        //         Console.Write("\n");
+        //     }
+        // }
+
+        // static void treeFour(int a){
+        //     for(int x = 1; x <= a; x++){
+        //         Console.Write("*");
+        //     }
+        //     Console.Write("\n");
+        //     for(int y = 1; y <= (a - 2); y++){
+        //         Console.Write("*");
+        //         for(int z = 1; z <= (a - 2); z++){
+        //             Console.Write(" ");
+        //         }
+        //         Console.Write("*\n");
+        //     }
+        //     for(int x = 1; x <= a; x++){
+        //         Console.Write("*");
+        //     }
+        //     Console.Write("\n");
+        // }
+
+        // Console.Write("Podaj ilość linii: ");
+        // int param = Convert.ToInt32(Console.ReadLine());
+        // Console.Write("Wybierz wariant drzewka: (1, 2, 3 lub 4): ");
+        // int tree = Convert.ToInt32(Console.ReadLine());
+
+        // switch(tree){
+        //     case 1:
+        //         treeOne(param);
+        //         break;
+        //     case 2:
+        //         treeTwo(param);
+        //         break;
+        //     case 3:
+        //         treeThree(param);
+        //         break;
+        //     case 4:
+        //         treeFour(param);
+        //         break;
+        //     default:
+        //         Console.WriteLine("Drzewko spoza podanego zakresu");
+        //         break;
         // }
 
         //ZADANIE 10
@@ -270,10 +335,6 @@ namespace lab3{
         //         Console.WriteLine($"Liczba doskonała: {x}");
         //     }
         // }
-
-        //ZADANIE 15
-
-        
     }
     }
 }
